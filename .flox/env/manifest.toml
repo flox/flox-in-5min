@@ -1,0 +1,17 @@
+version = 1
+
+[install]
+go.pkg-path = "go"
+nodejs_24.pkg-path = "nodejs_24"
+ripgrep.pkg-path = "ripgrep"
+coreutils.pkg-path = "coreutils"
+bun.pkg-path = "bun"
+nasm.pkg-path = "nasm"
+
+[vars]
+MY_VAR = "pretty neat"
+
+[services.stopwatch]
+command = '''
+  while true; do date; sleep 5; done
+'''

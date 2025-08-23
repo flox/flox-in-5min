@@ -1,0 +1,747 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "bun": {
+        "pkg-path": "bun"
+      },
+      "coreutils": {
+        "pkg-path": "coreutils"
+      },
+      "go": {
+        "pkg-path": "go"
+      },
+      "nasm": {
+        "pkg-path": "nasm"
+      },
+      "nodejs_24": {
+        "pkg-path": "nodejs_24"
+      },
+      "ripgrep": {
+        "pkg-path": "ripgrep"
+      }
+    },
+    "vars": {
+      "MY_VAR": "pretty neat"
+    },
+    "options": {},
+    "services": {
+      "stopwatch": {
+        "command": "  while true; do date; sleep 5; done\n"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "bun",
+      "broken": false,
+      "derivation": "/nix/store/pv8nzzgpsbiadr0qapyam9hi1nzml8cl-bun-1.2.20.drv",
+      "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one",
+      "install_id": "bun",
+      "license": "[ MIT, LGPL-2.1-only ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "bun-1.2.20",
+      "pname": "bun",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:08.863606Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/scma1kiji0586gs1g9h11rwgfb6lfa97-bun-1.2.20"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bun",
+      "broken": false,
+      "derivation": "/nix/store/vkmwmzmak1yvni3rcl63c9pggmqxd6w9-bun-1.2.20.drv",
+      "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one",
+      "install_id": "bun",
+      "license": "[ MIT, LGPL-2.1-only ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "bun-1.2.20",
+      "pname": "bun",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:35:10.361567Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4zldmxf7p51drjic1psxh8csrpb38vj4-bun-1.2.20"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bun",
+      "broken": false,
+      "derivation": "/nix/store/al344910qpdv8dra81g62ay7xlv8m5ww-bun-1.2.20.drv",
+      "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one",
+      "install_id": "bun",
+      "license": "[ MIT, LGPL-2.1-only ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "bun-1.2.20",
+      "pname": "bun",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:43:49.358593Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zwqjqjh78fns1wf67ycfzzqj8aj1aqsi-bun-1.2.20"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bun",
+      "broken": false,
+      "derivation": "/nix/store/7q9kgnfc1wwdws2xpylxbkxpdryv61ns-bun-1.2.20.drv",
+      "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one",
+      "install_id": "bun",
+      "license": "[ MIT, LGPL-2.1-only ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "bun-1.2.20",
+      "pname": "bun",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:12:00.405458Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/yq0f6b7aiyln0vcaiv8l20hqzik20wnn-bun-1.2.20"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/gakan7s3zz4f52ryq14q003013vm78di-coreutils-9.7.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "coreutils-9.7",
+      "pname": "coreutils",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:09.721527Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/06yc80769mip8qs0v04vmw32qhiy1hiy-coreutils-9.7-info",
+        "out": "/nix/store/7712hv9svx4cf3cc5g848aa073aak0a4-coreutils-9.7"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/ynxqpqvpn3ajzcdbrddpljhdzz47lrx9-coreutils-9.7.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "coreutils-9.7",
+      "pname": "coreutils",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:35:10.711207Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/a465x241qnwmk8a7j8sryr3by1w43bry-coreutils-9.7-debug",
+        "info": "/nix/store/j571l41q05v8bzigwj98y5w8qv6y3ib8-coreutils-9.7-info",
+        "out": "/nix/store/8b7y59p9vzlkwbx52q42lzpf9gwkzih2-coreutils-9.7"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/34230vngwp25fwbq2hgyjmpa2cc3x5dc-coreutils-9.7.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "coreutils-9.7",
+      "pname": "coreutils",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:43:49.624258Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/s5mamzn38dqib8vnsg6xkzjng6qhcrm5-coreutils-9.7-info",
+        "out": "/nix/store/4kg0dzgzcwnm9cgn2adbgjavn50l9cyc-coreutils-9.7"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "coreutils",
+      "broken": false,
+      "derivation": "/nix/store/m1iqxjf7qjdwzhvwcsmqjzr88vbfnw4c-coreutils-9.7.drv",
+      "description": "GNU Core Utilities",
+      "install_id": "coreutils",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "coreutils-9.7",
+      "pname": "coreutils",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:12:00.792703Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/djp1j1sr6znqdyklb60irysmbkr6b51h-coreutils-9.7-debug",
+        "info": "/nix/store/qq91hijdh4gmwrkpx4q9158sk469n12n-coreutils-9.7-info",
+        "out": "/nix/store/ih779chzzag1nm91fgnrndml4mghm3la-coreutils-9.7"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/64rdsj50y7y019hy08vjn9bbkqs4xv94-go-1.24.5.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "go-1.24.5",
+      "pname": "go",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:10.512809Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kw1vd98s15vj700m3gx2x2xca2z477i3-go-1.24.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/w5wx665g669d26ms6q6wyl7ga4vqqfbh-go-1.24.5.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "go-1.24.5",
+      "pname": "go",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:35:12.319658Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5bzlaj0c4mqw9p0zrcx5g9vz16vd45dl-go-1.24.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/sblxqar4xfxgxy55z3h3mdfgrp7vm1lj-go-1.24.5.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "go-1.24.5",
+      "pname": "go",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:43:50.431386Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/b72n20ixzl5ja9vciwahkr30bhmsn5jc-go-1.24.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/n3ggn80wfjjbrgnlh0q8zrmfmdlcmd0b-go-1.24.5.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "go-1.24.5",
+      "pname": "go",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:12:02.595173Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.24.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y4awwzp30ka130wmjrpaqjmjdf9p010w-go-1.24.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nasm",
+      "broken": false,
+      "derivation": "/nix/store/nacfr5avzg9zwi6slnnia36bjzf60nvj-nasm-2.16.03.drv",
+      "description": "80x86 and x86-64 assembler designed for portability and modularity",
+      "install_id": "nasm",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nasm-2.16.03",
+      "pname": "nasm",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:13.474159Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.16.03",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i11nqswg33fbg0fpa7psgqgx9r3vn40x-nasm-2.16.03"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nasm",
+      "broken": false,
+      "derivation": "/nix/store/g5pmdxgkrs2r23zbi61ag6xzsyangaxg-nasm-2.16.03.drv",
+      "description": "80x86 and x86-64 assembler designed for portability and modularity",
+      "install_id": "nasm",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nasm-2.16.03",
+      "pname": "nasm",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:35:23.216921Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.16.03",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zb06jhbbqha51n4a38amd24577h2axhy-nasm-2.16.03"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nasm",
+      "broken": false,
+      "derivation": "/nix/store/1a6683jawwr81nhbabgpx19q2zszxzdy-nasm-2.16.03.drv",
+      "description": "80x86 and x86-64 assembler designed for portability and modularity",
+      "install_id": "nasm",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nasm-2.16.03",
+      "pname": "nasm",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:43:53.415098Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.16.03",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ikjcxwy025l0s4fs60vdgp3hn0hlfiha-nasm-2.16.03"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nasm",
+      "broken": false,
+      "derivation": "/nix/store/pdzmj5r1idk4qr9293j8ydv7vmg7wp50-nasm-2.16.03.drv",
+      "description": "80x86 and x86-64 assembler designed for portability and modularity",
+      "install_id": "nasm",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nasm-2.16.03",
+      "pname": "nasm",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:12:15.612155Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.16.03",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ak37y9cigbs6xqhj821yb8p4plpfd1mw-nasm-2.16.03"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/4pmi23g5yh8qd35lb2dacza23qf5wry0-nodejs-24.5.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nodejs-24.5.0",
+      "pname": "nodejs_24",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:13.834411Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/j6ayg4xpqy9xdxgrhpqylzq8v7v07c6r-nodejs-24.5.0-dev",
+        "libv8": "/nix/store/3ys6v5s5gvd9snwnl4saynl6av7mz3vy-nodejs-24.5.0-libv8",
+        "out": "/nix/store/b1j05q96hwagn787p2jlgqcjg2nf5x49-nodejs-24.5.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/9nipdm2zk8d6vgjh4cns36s9lri6f6gl-nodejs-24.5.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nodejs-24.5.0",
+      "pname": "nodejs_24",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:35:24.006044Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/i3lqaj3j6znhnzh8ayka6q85r81ppxnw-nodejs-24.5.0-dev",
+        "libv8": "/nix/store/jjw6xgmg6qynp336g9igqnzlfbhzxr2i-nodejs-24.5.0-libv8",
+        "out": "/nix/store/1kn0vh4gf3a22arldrw694apq3fhgp15-nodejs-24.5.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/h1cf712z31biw0rxy0zmndwy87zj42dq-nodejs-24.5.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nodejs-24.5.0",
+      "pname": "nodejs_24",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:43:53.776944Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/fg7pi9s6m0spci1pfqbny0kxmk832i3r-nodejs-24.5.0-dev",
+        "libv8": "/nix/store/75b7iix0pbmxmfnmv90l3q0ll1gc75az-nodejs-24.5.0-libv8",
+        "out": "/nix/store/sbcg21wp4bdzyh2542v77sp535kvfbfq-nodejs-24.5.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/9hqj75asdqpb98m87i5s2x4jvnnjmr1w-nodejs-24.5.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "nodejs-24.5.0",
+      "pname": "nodejs_24",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:12:16.501824Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/0drh8jjq84sji6889l2k3ysmvy7sc9sg-nodejs-24.5.0-dev",
+        "libv8": "/nix/store/kdlv4q7sgap0z43cylklhxz1g1q7751b-nodejs-24.5.0-libv8",
+        "out": "/nix/store/357id3rjy9417k4dkvxxmpgd9bxrwc7l-nodejs-24.5.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/nahjn9wm7alxiag3v31h1wq5fz9qw33c-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:27:50.384239Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/md9kfvsz7axcb5b1z2yw2mybi3lhxyha-ripgrep-14.1.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/ay60yjb7ach8x3nf0k9g8v0x997rl3jg-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:36:21.074070Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/slgpwy2f6j68p47hifz503251dgxb075-ripgrep-14.1.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/pm6lkcp7s6b9k8ck8x6930f7dpqmdbmj-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T01:44:30.197285Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/m645jkssqpw05acf1cnz037via2y0j4q-ripgrep-14.1.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ripgrep",
+      "broken": false,
+      "derivation": "/nix/store/17adrnfwpnq6v56ay2m3yp10si3hx0bf-ripgrep-14.1.1.drv",
+      "description": "Utility that combines the usability of The Silver Searcher with the raw speed of grep",
+      "install_id": "ripgrep",
+      "license": "[ Unlicense, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "name": "ripgrep-14.1.1",
+      "pname": "ripgrep",
+      "rev": "fbcf476f790d8a217c3eab4e12033dc4a0f6d23c",
+      "rev_count": 844474,
+      "rev_date": "2025-08-14T15:51:38Z",
+      "scrape_date": "2025-08-16T02:13:17.491179Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.1.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1ijacjhy42pqx7vfi5mnsqrps2k3b8xf-ripgrep-14.1.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
